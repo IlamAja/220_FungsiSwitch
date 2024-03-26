@@ -27,8 +27,9 @@ float pembagian(int a, int b){
 int main()
 {
     int pilihan;
-
-        cout << "Kalkulator Sederhana" << endl;
+    do
+    {
+                cout << "Kalkulator Sederhana" << endl;
         cout << "====================" << endl;
         cout << "1. Penjumlahan" << endl;
         cout << "2. Pengurangan" << endl;
@@ -57,5 +58,15 @@ int main()
                 inputData();
                 cout << "Hasil pembagian = " << pembagian(bilangan1, bilangan2) << endl;
                 break;
+            case 5:
+                break;
+            
+            default:
+                cout << "Pilihan Tidak Ada" << endl;
+                break;
         }
+    } while (pilihan !=5);
+    
+
+
 }
