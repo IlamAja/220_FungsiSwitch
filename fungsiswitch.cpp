@@ -38,5 +38,10 @@ int main()
         cout << "====================" << endl;
         cout << "Masukkan Menu Pilihan" << endl;
         cin >> pilihan;
+
+        switch (pilihan)
+            case 1:
+                inputData();
+                cout << "Hasil penjumlahan = " << penjumlahan(bilangan1, bilangan2) << endl;
     
 }
